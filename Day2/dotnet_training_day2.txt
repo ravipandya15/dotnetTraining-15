@@ -1,0 +1,52 @@
+dependency injection
+
+Code First
+Step 1 - Table schema
+step 2 - Created DB Context
+step 3 = adding Db context service in startup with connection string
+step 4 - provided options in to base constructor of DbContext 
+step 5 - add Migration + update database
+
+lifetime of service
+
+transient - per call
+scoped - per session - for each client this is diff.
+singlton - only one for all call , all session  
+default is singleton
+Design Paterns- Solutions to a common problems (code)
+Microservices/container
+repositoryPattern - Create separate abstract layer between Model and Controller
+
+Interface is abstaction and Class is Concreate
+
+unobtrusiveJavacript
+
+app.Run terminating middleware - last middle e=ware of pipeline
+
+Run 
+Use 
+Map
+
+
+Asp.Net                ASp.NET Core
+plateform dependant		independent
+MVC 5					MVC 6
+not cloud optimized			cloud optimized
+-----divided app in to small parts
+-----dependency injection compulsory
+----code us more reusable
+------ASp.NEt UI is based onn C# method        Tag Helpers 
+performance wise it's ligher and faster
+
+Windows					Windows, Linux, Mac
+backword compatibility banne ma chhe
+web forms are there 				web forms are not there  -nagative point nathi e saru chhe because bau heavy chhe
+
+project structure						
+web.config								json config dynamic
+global asax								configure, Conf-ser
+asmx, aspx								htmlssss
+MVC / API both controller are diff.		MVC + API both are same
+
+
+	

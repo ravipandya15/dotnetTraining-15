@@ -1,0 +1,34 @@
+
+
+content nagotiable - json and xml
+
+using Microsoft.AspNetCore.Mvc.Formatters;
+
+services.AddControllersWithViews(config =>
+            {
+                config.RespectBrowserAcceptHeader = true;
+                config.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+            }).SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Latest);
+			
+[Route("champs")] - attribute based routing
+https://localhost:44327/api/student/champs
+
+[Route("~/champs")] - https://localhost:44327/champs
+
+
+20 diff. APIs - so Microservices architecture
+SOLID principle
+S - Single Identity Principle -- every class should do 1 single responsibility - admvisable thing
+
+
+CORS - Cross Origin 
+if API is hosted in separate server and if Application is hosted on other server then CrossOrigin is required.
+
+SpaService
+
+
+
+Model  Student
+DAL StudentDataContext
+Repo  StudentService
+Controller  StudentController
